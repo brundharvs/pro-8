@@ -14,12 +14,12 @@ sudo firewall-cmd --list-services
 
 
 # Allow HTTP service
-sudo firewall-cmd --permanent --add-service=http
+sudo firewall-cmd --permanent --add-service=https
 
 
 
 # Allow HTTPS service
-sudo firewall-cmd --permanent --add-service=http
+sudo firewall-cmd --permanent --add-service=https
 
 
 
